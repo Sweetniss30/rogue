@@ -1,0 +1,189 @@
+/****Color Palette
+
+Green: #77a466;
+Leaf Green: #89b07a;
+
+********************/
+
+
+/*****Global Styles************/
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1, h3, h4 {
+     
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 21px;
+    padding: 0 30px;  
+}
+
+h4 {
+    font-size: 12px;
+}
+
+
+
+
+
+
+/********Header***********/
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    margin: 0;
+    padding: 38px 0; 
+
+}
+
+header span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+ nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #77a466;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+/********Top Section*********/
+
+.about, .more-info {
+    clear: both;
+    margin: 0 auto;
+}
+
+.main-img image {
+    height: auto;
+    float: left;
+}
+
+#main-img  {
+    border-bottom: 3px solid #77a466;
+    
+}
+
+.main-title {
+    height: auto;
+    float: left;
+    border-bottom: 1px solid #dedbdc;
+}
+.about h3 {
+    text-align: left;  
+    color: #77a466;
+    padding: 5px 0;
+
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0;
+}
+
+/******Bottom Section*********/
+
+
+.section-one, .section-two, .section-three {
+    width: 399px;
+    float: left;
+    height: auto;
+}
+
+.section-one h4 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.section-two h4, .section-three h4 {
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    color: #77a466;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    
+}
+
+.reviews {
+    font-size: 16px; 
+    line-height: 21px;
+}
+
+.contact {
+    font-size: 16px; 
+    line-height: 25px; 
+}
+
+
+/*********Footer************/
+
+footer {
+    height: 50px; 
+    border-top: 1px solid #dedbdc;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    
+}
+
+footer span {
+    color: #77a466;
+    text-transform: lowercase;
+    font-size: 14px; 
+    font-family:'Great Vibes', cursive;
+
+}
